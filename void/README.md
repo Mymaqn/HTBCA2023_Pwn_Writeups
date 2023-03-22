@@ -1,9 +1,8 @@
 # Void - HTB Cyber Apocalypse 2023
 
 ## Description
-```
+
 The room goes dark and all you can see is a damaged terminal. Hack into it to restore the power and find your way out.
-```
 
 ## Solution
 The binary is tiny, and only calls read to take our user input. This has a buffer overflow in it.
