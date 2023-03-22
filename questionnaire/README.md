@@ -1,5 +1,10 @@
 # Questionnaire - HTB Cyber Apocalypse 2023
 
+## Description
+It's time to learn some things about binaries and basic c. Connect to a remote server and answer some questions to get the flag.
+
+## Solution
+
 Just a simple questionnaire which needs to be answered by connecting to the remote instance.
 
 Connect using  `nc <IP> <PORT>`
