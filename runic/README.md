@@ -125,13 +125,13 @@ def obfuscate(pos,ptr):
 
 Next we allocate that chunk and fill it with data untill we hit the stack pointer. Then show that chunk.
 
-Once we have a stack leak, we just need to allocate a chunk on top of the return pointer for edit, with a ROP chain. Again this is done by overflowing into a free pointer, and then allocating that free pointer.
+Once we have a stack leak, we just need to allocate a chunk on top of the return pointer for create, with a ROP chain. Again this is done by overflowing into a free pointer, and then allocating that free pointer.
 
 In short we:
 1. Use overflow to write up to heap free ptr and leak it. Then deobfuscate it
 2. Use overflow to overwrite size of a chunk, then free it to get a libc pointer. Leak by using the same method as in 1
 3. Use overflow to allocate a chunk on top of __libc_argv. Fill it with data untill we can leak the pointer
-4. Use overflow to allocate a chunk on top of the edit functions return pointer, to allocate a ROP chain and spawn shell
+4. Use overflow to allocate a chunk on top of the create functions return pointer, to allocate a ROP chain and spawn shell
 
 
 Exploit:
