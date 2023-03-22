@@ -1,4 +1,4 @@
-# Getting_started writeup - HTB Cyber Apocalypse 2023
+# Getting Started - HTB Cyber Apocalypse 2023
 
 ## Description
 Get ready for the last guided challenge and your first real exploit. It's time to show your hacking skills.
