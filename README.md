@@ -1,5 +1,5 @@
 # HTBCA2023_Pwn_Writeups
-Writeups for all pwn challenges from HTB Cyber Apocalypse 2023 expcept "Initialise connection" (if you don't know how to use netcat, then what are you doing here?)
+Writeups for all pwn challenges from HTB Cyber Apocalypse 2023 except "Initialise connection" (if you don't know how to use netcat, then what are you doing here?)
 
 ## Table of Contents
 
