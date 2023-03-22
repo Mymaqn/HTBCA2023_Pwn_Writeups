@@ -1,9 +1,7 @@
 # Pandora's box - HTB Cyber Apocalypse 2023
 
 ## Description
-```
 You stumbled upon one of Pandora's mythical boxes. Would you be curious enough to open it and see what's inside, or would you opt to give it to your team for analysis?
-```
 
 ## Solution
 There's a buffer overflow inside the `Insert location of the library:` prompt, which allows us to perform ROP.
