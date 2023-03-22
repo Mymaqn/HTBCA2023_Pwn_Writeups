@@ -1,4 +1,4 @@
-# Questionnaire - Pwn HTB Cyber Apocalypse 2023
+# Questionnaire - HTB Cyber Apocalypse 2023
 
 Just a simple questionnaire which needs to be answered by connecting to the remote instance.
 
